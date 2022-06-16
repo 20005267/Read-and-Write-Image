@@ -23,33 +23,30 @@ End the program and close the output image windows.
 ### Register Number: 212220230024
 # i) To Read,display the image
 ```python3
-import cv2
-color_image = cv2.imread("pikachu.jpg",1)
-cv2.imshow('212220230024 , KAYALVIZHI',color_image)
-cv2.waitKey(0) 
+  import cv2
+  color_image = cv2.imread('pikachu.jpg',1)
+  cv2.imshow('212220230022',color_image)
+  cv2.waitKey(0)
+  gray_image = cv2.imread('pikachu.jpg',0)
+  cv2.imshow('212220230022',gray_image)
+  cv2.waitKey(0)
+
 ```
 # ii) To write the image
 ```python3
-import cv2
-color_image = cv2.imread('pikachu.jpg',1)
-w = cv2.imwrite('img.png',color_image)
-cv2.imshow('212220230024 , KAYALVIZHI',color_image)
-cv2.waitKey(0)
 
+cv2.imwrite("img.jpg",gray_image)
 
 ```
 # iii) Find the shape of the Image
 ```python3
 
-import cv2
-import random
-color_image = cv2.imread('pikachu.jpg',1)
 print(color_image.shape)
+print(gray_image.shape)
 
 ```
 # iv) To access rows and columns
 ```python3
-import cv2
 import random
 color_image = cv2.imread('pikachu.jpg',1)
 for i in range(100):
@@ -59,13 +56,10 @@ for i in range(100):
 cv2.imshow('212220230024 KAYALVIZHI',color_image)
 cv2.waitKey(0)
 
-
-
 ```
 #  v) To cut and paste portion of image
 ```python3
-import cv2
-color_image = cv2.imread('pikachu.jpg',-1)
+
 tag = color_image[300:400,300:400]
 color_image[50:150,50:150]=tag
 cv2.imshow('212220230024',color_image)
