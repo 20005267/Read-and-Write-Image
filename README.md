@@ -25,10 +25,10 @@ End the program and close the output image windows.
 ```python3
   import cv2
   color_image = cv2.imread('pikachu.jpg',1)
-  cv2.imshow('212220230022',color_image)
+  cv2.imshow('212220230024',color_image)
   cv2.waitKey(0)
   gray_image = cv2.imread('pikachu.jpg',0)
-  cv2.imshow('212220230022',gray_image)
+  cv2.imshow('212220230024',gray_image)
   cv2.waitKey(0)
 
 ```
