@@ -1,5 +1,7 @@
-# READ AND WRITE AN IMAGE
-## AIM
+### EX NO: 01
+### DATE:
+# <p align="center">READ AND WRITE AN IMAGE</p>
+## AIM:
 To write a python program using OpenCV to do the following image manipulations.
 i) Read, display, and write an image.
 ii) Access the rows and columns in an image.
@@ -19,8 +21,10 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By: KAYALVIZHI M
-### Register Number: 212220230024
+```
+Developed By: KAYALVIZHI M
+Register Number: 212220230024
+```
 # i) To Read,display the image
 ```python3
   import cv2
